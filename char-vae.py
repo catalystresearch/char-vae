@@ -72,5 +72,3 @@ class LSTMVAE(object):
             .minimize(self.total_loss)
 
         return
-
-    def run_single_step(self, x):
